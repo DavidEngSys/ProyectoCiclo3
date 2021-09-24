@@ -77,7 +77,6 @@ h2{
     color: white;
 }
 
-
 .form-disminuir h5{
     margin: 0;
     text-align: center;
@@ -86,6 +85,31 @@ h2{
     border-bottom: 1px solid;
     font-size: 20px;
 }
+
+.form-agregar{
+    width: 400px;
+    height: 390px;
+    background: #a09e9e;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: white;
+}
+
+.form-agregar h2{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 23px;
+    color: rgb(62, 65, 65);
+}
+
+
+
 
 .controls{
     width: 100%;
