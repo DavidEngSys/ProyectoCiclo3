@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Busqueda Producto</title>
-    <link rel="stylesheet" href="css/estilos.css">
-      <link rel="icon" href="imgs/xxxxxTechnologyLogotipos.png">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busqueda Producto</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" href="imgs/xxxxxTechnologyLogotipos.png">
 
 </head>
+
 <body>
-<img src="imgs/xxxxxTechnologyLogotipos.png" alt="" width="100" height="100">
+  <img src="imgs/xxxxxTechnologyLogotipos.png" alt="" width="100" height="100">
 
   <header>
 
@@ -18,48 +20,62 @@
     <input type="checkbox" id="btn-menu">
     <label for="btn-menu">MENU</label>
     <nav class="menu">
-        <ul>
-          <li><a href="vistaResumen.html">Inicio</a></li>
-          <li><a href="agregarProducto.html">Agregar Producto</a></li>
-          <li><a href="busquedaProducto.html">Buscar Producto</a></li>
-          <li><a href="disminuirProducto.html">Disminuir Inventario</a></li>
-          <li><a href="transferirProducto.html">Transferir Producto</a></li>
-          <li><a href="crear_usuario.html">Crear nuevo usuario</a></li>
-        </ul>
-      </nav>
-    </header>
+      <ul>
+        <li><a href="vistaResumen.html"><b>Inicio</b></a></li>
+        <li><a href="agregarProducto.html"><b>Agregar Producto</b></a></li>
+        <li><a href="busquedaProducto.html"><b>Buscar Producto</b></a></li>
+        <li><a href="disminuirProducto.html"><b>Disminuir Inventario</b></a></li>
+        <li><a href="transferirProducto.html"><b>Transferir Producto</b></a></li>
+        <li><a href="crear_usuario.html"><b>Crear nuevo usuario</b></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="form-busqueda">
     <h2>Busqueda Por Producto</h2>
-    <form class="inicio_sesion">
-        <div class="contendor">
-            <div>
-                <label for="fname">Codigo Producto:</label>
-                <input type="text" >
-                <input type="submit" value="Buscar"><br><br>
 
-            </div>
-            
+    <form >
+      <div class="contendor">
+        <div>
+          <label for="fname"><b>Codigo Producto:</b></label>
+          <input type="text">   
+            <!--<input class="button" type="submit" name="" value="Buscar">-->
+          <input type="submit" value="Buscar"><br><br>
+          
 
-            <div>
-                <table border="1" align="center">
-                    <tr>
-                      <th>Codigo Producto</th>
-                      <th>Descripcion</th>
-                      <th>Cantidad (Unidades)</th>
-                      <th>Ubicacion</th>
-                    </tr>
-                    <tr>
-                      <td>001</td>
-                      <td>Producto codigo 001</td>
-                      <td>24</td>
-                      <td>Almacen No. 2</td>
-                    </tr>
-                    <tr>
-                        <td>001</td>
-                        <td>Producto codigo 001</td>
-                        <td>2</td>
-                        <td>Bodega</td>
-                      </tr>
-            </div>
         </div>
+
+
+        <div>
+          <table id=customers2>
+            <tr>
+              <th>Codigo Producto</th>
+              <th>Descripcion</th>
+              <th>Cantidad (Unidades)</th>
+              <th>Ubicacion</th>
+            </tr>
+            <tr>
+              <td>001</td>
+              <td>Producto codigo 001</td>
+              <td>24</td>
+              <td>Almacen No. 2</td>
+            </tr>
+            <tr>
+              <td>001</td>
+              <td>Producto codigo 001</td>
+              <td>2</td>
+              <td>Bodega</td>
+            </tr>
+            <tr>
+              <td>001</td>
+              <td>Producto codigo 001</td>
+              <td>4</td>
+              <td>Almacen No. 1</td>
+            </tr>
+        </div>
+      </div>
+
+  </section>
 </body>
+
 </html>
