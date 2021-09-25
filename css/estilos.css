@@ -140,30 +140,6 @@ h2{
     color: rgb(42, 43, 47);
 }
 
-#customers2 {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  #customers2 td, #customers2 th {
-    border: 1px solid #ddd;
-    padding: 7px;
-  }
-  
-  #customers2 tr:nth-child(even){background-color: #ffffff;}
-  
-  #customers2 tr:hover {background-color: rgb(159, 255, 49);}
-  
-  #customers2 th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #1f5a81;
-    color: white;
-  }
-
-
 
 .form-disminuir{
     width: 400px;
