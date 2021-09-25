@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vista de Resumen</title>
-    <link rel="stylesheet" href="css/estilos.css">
-      <link rel="icon" href="imgs/xxxxxTechnologyLogotipos.png">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vista de Resumen</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" href="imgs/xxxxxTechnologyLogotipos.png">
 </head>
+
 <body>
-<img src="imgs/xxxxxTechnologyLogotipos.png" alt="" width="100" height="100">
+  <img src="imgs/xxxxxTechnologyLogotipos.png" alt="" width="100" height="100">
 
 
   <header>
@@ -19,34 +20,37 @@
     <input type="checkbox" id="btn-menu">
     <label for="btn-menu">MENU</label>
     <nav class="menu">
-        <ul>
-          <li><a href="vistaResumen.html">Inicio</a></li>
-          <li><a href="agregarProducto.html">Agregar Producto</a></li>
-          <li><a href="busquedaProducto.html">Buscar Producto</a></li>
-          <li><a href="disminuirProducto.html">Disminuir Inventario</a></li>
-          <li><a href="transferirProducto.html">Transferir Producto</a></li>
-          <li><a href="crear_usuario.html">Crear nuevo usuario</a></li>
-        </ul>
-      </nav>
-    </header>
-  
+      <ul>
+        <li><a href="vistaResumen.html"><b>Inicio</b></a></li>
+        <li><a href="agregarProducto.html"><b>Agregar Producto</b></a></li>
+        <li><a href="busquedaProducto.html"><b>Buscar Producto</b></a></li>
+        <li><a href="disminuirProducto.html"><b>Disminuir Inventario</b></a></li>
+        <li><a href="transferirProducto.html"><b>Transferir Producto</b></a></li>
+        <li><a href="crear_usuario.html"><b>Crear nuevo usuario</b></a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="form-inicio">
     <h2> Vista Rapida de Inventario</h2>
 
     <div>
-      <form >
-        <label for="fecha">Fecha:</label>
+      <form>
+        <label for="fecha"><b>Fecha:</b></label>
         <select id="meses" name="meses">
           <option value="0">Mes Actual</option>
           <option value="1">Mes Actual -1</option>
           <option value="2">Mes Actual -2</option>
           <option value="3">Mes Actual -3</option>
         </select>
-        
+
       </form>
     </div>
 
     <div>
-    <table border="1" align="center">
+      <br>
+      <table id="customers">
         <tr>
           <th>Codigo Producto</th>
           <th>Descripcion</th>
@@ -60,43 +64,46 @@
           <td>Almacen No. 2</td>
         </tr>
         <tr>
-            <td>002</td>
-            <td>Producto codigo 002</td>
-            <td>12</td>
-            <td>Bodega</td>
-          </tr>
-          <tr>
-            <td>003</td>
-            <td>Producto codigo 003</td>
-            <td>2</td>
-            <td>Bodega</td>
-          </tr>
-          <tr>
-            <td>004</td>
-            <td>Producto codigo 004</td>
-            <td>12</td>
-            <td>Almacen No. 2</td>
-          </tr>
-          <tr>
-            <td>005</td>
-            <td>Producto codigo 005</td>
-            <td>32</td>
-            <td>Bodega</td>
-          </tr>
-          <tr>
-            <td>006</td>
-            <td>Producto codigo 006</td>
-            <td>34</td>
-            <td>Almacen No.4</td>
-          </tr>
-          <tr>
-            <td>007</td>
-            <td>Producto codigo 007</td>
-            <td>34</td>
-            <td>Almacen No.4</td>
-          </tr>
-      </table> 
+          <td>002</td>
+          <td>Producto codigo 002</td>
+          <td>12</td>
+          <td>Bodega</td>
+        </tr>
+        <tr>
+          <td>003</td>
+          <td>Producto codigo 003</td>
+          <td>2</td>
+          <td>Bodega</td>
+        </tr>
+        <tr>
+          <td>004</td>
+          <td>Producto codigo 004</td>
+          <td>12</td>
+          <td>Almacen No. 2</td>
+        </tr>
+        <tr>
+          <td>005</td>
+          <td>Producto codigo 005</td>
+          <td>32</td>
+          <td>Bodega</td>
+        </tr>
+        <tr>
+          <td>006</td>
+          <td>Producto codigo 006</td>
+          <td>34</td>
+          <td>Almacen No.4</td>
+        </tr>
+        <tr>
+          <td>007</td>
+          <td>Producto codigo 007</td>
+          <td>34</td>
+          <td>Almacen No.4</td>
+        </tr>
+      </table>
     </div>
-    
+
+  </section>
+
 </body>
+
 </html>
