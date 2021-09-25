@@ -65,6 +65,105 @@ h2{
     font-size: 20px;
 }
 
+.form-inicio{
+    width: 800px;
+    height: 470px;
+    background: #a09e9e;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: rgb(40, 42, 44);
+}
+
+
+.form-inicio h2{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 23px;
+    color: rgb(42, 43, 47);
+}
+
+
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 7px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #ffffff;}
+  
+  #customers tr:hover {background-color: rgb(159, 255, 49);}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1f5a81;
+    color: white;
+  }
+
+
+
+
+
+.form-busqueda{
+    width: 800px;
+    height: 470px;
+    background: #a09e9e;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: rgb(40, 42, 44);
+  }
+
+  .form-busqueda h2{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 23px;
+    color: rgb(42, 43, 47);
+}
+
+#customers2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers2 td, #customers2 th {
+    border: 1px solid #ddd;
+    padding: 7px;
+  }
+  
+  #customers2 tr:nth-child(even){background-color: #ffffff;}
+  
+  #customers2 tr:hover {background-color: rgb(159, 255, 49);}
+  
+  #customers2 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1f5a81;
+    color: white;
+  }
+
+
+
 .form-disminuir{
     width: 400px;
     height: 370px;
@@ -105,10 +204,41 @@ h2{
     margin-bottom: 30px;
     border-bottom: 1px solid;
     font-size: 23px;
-    color: rgb(62, 65, 65);
+    color: rgb(42, 43, 47);
 }
 
 
+.form-newuser{
+    width: 400px;
+    height: 480px;
+    background: #a09e9e;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 5px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: rgb(51, 50, 50);
+}
+
+.form-newuser h3{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 23px;
+    color: rgb(42, 43, 47);
+}
+
+.form-newuser h4{
+    margin: 0;
+    text-align: left;
+    height: 20px;
+    margin-bottom: 15px;
+    border-bottom: 0.5px solid;
+    font-size: 18px;
+    color: rgb(62, 65, 65);
+}
 
 
 .controls{
@@ -128,6 +258,16 @@ h2{
     border: none;
     color: white;
     margin-bottom: 16px;
+  
+}
+.button{
+    width: 10%;
+    height: 20px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+  
 }
 
 .form-login p{
