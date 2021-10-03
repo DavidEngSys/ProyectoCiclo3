@@ -11,7 +11,7 @@ CREATE TABLE  almacenes(
 
 CREATE TABLE usuarios (
   id_usuario BIGINT NOT NULL,
-  nombreCompleto VARCHAR(45) ,
+  nombre_completo VARCHAR(45) ,
   usuario VARCHAR(45) ,
   contrasena_usuario VARCHAR(45) ,
   genero TinyInt(2),
